@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Digg&Billig</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+line-height:1.6;
+color:#333;
+}
+
+header{
+height:100vh;
+background:
+linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+url("https://images.unsplash.com/photo-1542838132-92c53300491e");
+background-size:cover;
+background-position:center;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+padding:20px 10%;
+background:rgba(0,0,0,.3);
+}
+
+.logo{
+color:#7ED957;
+font-size:2rem;
+font-weight:bold;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:20px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+.hero{
+height:80%;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+}
+
+.hero h1{
+font-size:4rem;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:1.4rem;
+margin-bottom:30px;
+}
+
+.btn{
+display:inline-block;
+background:#7ED957;
+color:white;
+padding:15px 30px;
+margin:10px;
+border-radius:40px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.btn:hover{
+background:#67c545;
+}
+
+.section{
+padding:80px 10%;
+}
+
+.section-title{
+text-align:center;
+font-size:2.5rem;
+color:#2E7D32;
+margin-bottom:40px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:#f5f5f5;
+padding:25px;
+border-radius:15px;
+text-align:center;
+text-decoration:none;
+color:#333;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.gallery img{
+width:100%;
+height:250px;
+object-fit:cover;
+border-radius:15px;
+}
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:40px;
+}
+
+</style>
+
+</head>
+<body>
+
+<header>
+
+<nav>
+
+<div class="logo">Digg&Billig</div>
+
+<ul>
+<li><a href="index.html">Hjem</a></li>
+<li><a href="omoss.html">Om oss</a></li>
+<li><a href="butikker.html">Butikker</a></li>
+<li><a href="app.html">App</a></li>
+<li><a href="anmeldelser.html">Anmeldelser</a></li>
+<li><a href="kontakt.html">Kontakt</a></li>
+</ul>
+
+</nav>
+
+<div class="hero">
+
+<div>
+
+<h1>Digg&Billig</h1>
+
+<p>Redder mat • Sparer penger • Hjelper miljøet</p>
+
+<a href="app.html" class="btn">Last ned appen</a>
+<a href="butikker.html" class="btn">Finn butikker</a>
+<a href="omoss.html" class="btn">Om selskapet</a>
+
+</div>
+
+</div>
+
+</header>
+
+<section class="section">
+
+<h2 class="section-title">Utforsk Digg&Billig</h2>
+
+<div class="cards">
+
+<a class="card" href="matsvinn.html">
+<h3>🍎 Mindre Matsvinn</h3>
+<p>Lær hvordan vi redder tusenvis av måltider.</p>
+</a>
+
+<a class="card" href="miljo.html">
+<h3>🌍 Miljø</h3>
+<p>Se hvordan redusert matsvinn hjelper klimaet.</p>
+</a>
+
+<a class="card" href="butikker.html">
+<h3>🏪 Butikker</h3>
+<p>Finn samarbeidspartnere i hele Norge.</p>
+</a>
+
+<a class="card" href="anmeldelser.html">
+<h3>⭐ Kundeanmeldelser</h3>
+<p>Les erfaringene til brukerne våre.</p>
+</a>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2 class="section-title">Bilder</h2>
+
+<div class="gallery">
+
+<img src="https://images.unsplash.com/photo-1542838132-92c53300491e">
+
+<img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836">
+
+<img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd">
+
+<img src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543">
+
+</div>
+
+</section>
+
+<footer>
+
+<h2>Digg&Billig</h2>
+
+<p>God mat fortjener en ny sjanse.</p>
+
+<br>
+
+<a href="kontakt.html" class="btn">Kontakt oss</a>
+
+</footer>
+
+</body>
+</html>
