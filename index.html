@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Digg&Billig | Redder mat og sparer penger</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+color:#333;
+line-height:1.6;
+}
+
+header{
+height:100vh;
+background:
+linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+url("https://images.unsplash.com/photo-1542838132-92c53300491e");
+background-size:cover;
+background-position:center;
+color:white;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 10%;
+background:rgba(0,0,0,0.3);
+}
+
+.logo{
+font-size:2rem;
+font-weight:bold;
+color:#7ED957;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:20px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+.hero{
+height:85vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+}
+
+.hero h1{
+font-size:4rem;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:1.3rem;
+margin-bottom:30px;
+}
+
+.btn{
+display:inline-block;
+padding:15px 30px;
+margin:10px;
+background:#7ED957;
+border-radius:50px;
+color:white;
+text-decoration:none;
+font-weight:bold;
+transition:.3s;
+}
+
+.btn:hover{
+transform:scale(1.05);
+}
+
+.section{
+padding:80px 10%;
+}
+
+.section-title{
+text-align:center;
+font-size:2.5rem;
+margin-bottom:40px;
+color:#2E7D32;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:#f7f7f7;
+padding:25px;
+border-radius:15px;
+text-align:center;
+}
+
+.card img{
+width:100%;
+height:200px;
+object-fit:cover;
+border-radius:10px;
+margin-bottom:15px;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.gallery img{
+width:100%;
+height:250px;
+object-fit:cover;
+border-radius:15px;
+}
+
+.impact{
+background:#2E7D32;
+color:white;
+}
+
+.stats{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:50px;
+}
+
+.stat{
+text-align:center;
+}
+
+.stat h2{
+font-size:3rem;
+}
+
+.testimonials{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.review{
+background:#f4f4f4;
+padding:25px;
+border-radius:15px;
+}
+
+.download{
+background:#7ED957;
+color:white;
+text-align:center;
+}
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:40px;
+}
+
+@media(max-width:768px){
+
+nav{
+flex-direction:column;
+}
+
+.hero h1{
+font-size:2.5rem;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<nav>
+
+<div class="logo">Digg&Billig</div>
+
+<ul>
+<li><a href="index.html">Hjem</a></li>
+<li><a href="omoss.html">Om oss</a></li>
+<li><a href="butikker.html">Butikker</a></li>
+<li><a href="app.html">App</a></li>
+<li><a href="kontakt.html">Kontakt</a></li>
+</ul>
+
+</nav>
+
+<div class="hero">
+
+<div>
+
+<h1>Redder mat. Sparer penger.</h1>
+
+<p>Norges nye plattform mot matsvinn.</p>
+
+<a href="app.html" class="btn">Last ned appen</a>
+
+<a href="butikker.html" class="btn">Finn butikker</a>
+
+</div>
+
+</div>
+
+</header>
+
+<section class="section">
+
+<h2 class="section-title">Hvorfor Digg&Billig?</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>🍎 Mindre matsvinn</h3>
+<p>Vi redder mat som ellers ville blitt kastet.</p>
+</div>
+
+<div class="card">
+<h3>💰 Lavere priser</h3>
+<p>Kjøp kvalitetsmat til kraftig redusert pris.</p>
+</div>
+
+<div class="card">
+<h3>🌍 Miljøvennlig</h3>
+<p>Lavere utslipp og smartere ressursbruk.</p>
+</div>
+
+<div class="card">
+<h3>🇳🇴 Lokalt samarbeid</h3>
+<p>Støtter norske butikker og restauranter.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2 class="section-title">Mat vi redder</h2>
+
+<div class="gallery">
+
+<img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836">
+
+<img src="https://images.unsplash.com/photo-1547592180-85f173990554">
+
+<img src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543">
+
+<img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd">
+
+</div>
+
+</section>
+
+<section class="section impact">
+
+<h2 class="section-title" style="color:white;">
+Vår påvirkning
+</h2>
+
+<div class="stats">
+
+<div class="stat">
+<h2>50 000+</h2>
+<p>Måltider reddet</p>
+</div>
+
+<div class="stat">
+<h2>25 000+</h2>
+<p>Brukere</p>
+</div>
+
+<div class="stat">
+<h2>100+</h2>
+<p>Butikker</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2 class="section-title">Hva sier kundene?</h2>
+
+<div class="testimonials">
+
+<div class="review">
+⭐⭐⭐⭐⭐
+<p>Fantastisk app. Sparer masse penger.</p>
+<b>Emma</b>
+</div>
+
+<div class="review">
+⭐⭐⭐⭐⭐
+<p>Bruker den nesten hver dag.</p>
+<b>Andreas</b>
+</div>
+
+<div class="review">
+⭐⭐⭐⭐⭐
+<p>En enkel måte å hjelpe miljøet på.</p>
+<b>Sara</b>
+</div>
+
+</div>
+
+</section>
+
+<section class="section download">
+
+<h2>Last ned Digg&Billig</h2>
+
+<p>
+Finn gode tilbud rett fra mobilen.
+</p>
+
+<br>
+
+<a href="app.html" class="btn" style="background:white;color:#2E7D32;">
+Google Play
+</a>
+
+<a href="app.html" class="btn" style="background:white;color:#2E7D32;">
+App Store
+</a>
+
+</section>
+
+<footer>
+
+<h3>Digg&Billig</h3>
+
+<p>
+God mat fortjener en ny sjanse.
+</p>
+
+<br>
+
+<a href="kontakt.html" style="color:#7ED957;">
+Kontakt oss
+</a>
+
+</footer>
+
+</body>
+</html>
